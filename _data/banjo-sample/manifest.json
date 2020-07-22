@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://blros.github.io/AAtest/banjo-sample/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Banjo Sample" ] },
+    "homepage": [
+      {
+        "id": "https://creekdontrise.com",
+        "type": "Text",
+        "label": { "en": [ "Home page for Banjo Sample" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://creekdontrise.com",
+        "type": "Agent",
+        "label": { "en": [ "Creek Don't Rise" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://blros.github.io/AAtest/banjo-sample/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 71.0,
+        "items": [
+          {
+            "id": "https://blros.github.io/AAtest/banjo-sample/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://blros.github.io/AAtest/banjo-sample/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://creekdontrise.com/tabs_instr/banjo_tabs/tom_joad/tom_joads_tablature_files/Tom_Joad_Old_Joe_Clark.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 71.0
+                },
+                "target": "https://blros.github.io/AAtest/banjo-sample/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
